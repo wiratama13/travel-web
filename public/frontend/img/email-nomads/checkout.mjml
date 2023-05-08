@@ -1,0 +1,137 @@
+<mjml>
+ <mj-body background-color = "#E4E6EB">
+    <mj-section background-color="#fff" padding-bottom="0px"
+    padding-top="0px" border-bottom="1px dashed #eee">
+        <mj-column vertical-align="top" width="100%">
+            <mj-image src="images/logo_nomads.png" alt="" align="center" border="none" width="150px"
+            padding-right="0px"
+            padding-bottom="25px" padding-top="30px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-bottom="0px"
+    padding-top="0px" border-bottom="1px dashed #eee">
+        <mj-column vertical-align="top" width="100%">
+           <mj-text align="center" color="#071C4D" font-weight="bold" font-size="30px" font-family= "Playfair Display, Times New Roman, Serif"
+           padding-right="25px"
+           padding-left="25px"
+           padding-top="30px"
+           padding-bottom="30px">
+           Don't Forget Your E-Ticket!
+           </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-bottom="0px"
+    padding-top="0px" >
+        <mj-column vertical-align="top" width="100%">
+            <mj-image src="images/img-nusa@2x.jpg" alt="" align="center" border="none" width="550px"
+            padding-right="0px"
+            padding-left="0px"
+            padding-bottom="0px" padding-top="0px" />
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-bottom="30px"
+    padding-top="20px" border-bottom="1px dashed #eee">
+        <mj-column vertical-align="middle" width="100%"
+        border-bottom="1px dashed #eee">
+           <mj-text align="left" color="#071C4D"  font-size="18px" font-family= "Assistant, Helvetica, Arial, sans-serif"
+           padding-left="25px"
+           padding-right="25px">
+           Hi Wiratama
+           <br><br>
+           Tiket digital kamu sudah berhasil dicetak
+           <br >
+           Order ID <strong>#2214219</strong>
+           </mj-text>
+
+           <mj-table align="left" color="#071C4D" line-height="28px" font-size="18px" font-family= "Assistant, Helvetica, Arial, sans-serif"
+           padding-left="25px"
+           padding-right="25px">
+          <tr>
+            <td colspan="3">Members</td>
+          </tr>
+          <tr>
+            <td><strong>Wiratama Ashidqi</strong></td>
+            <td style="text-align:right;">Singapore, SG</td>
+         </tr>
+          <tr>
+            <td><strong>Angga Rizky</strong></td>
+            <td style="text-align:right;">Indoensia, IND</td>
+         </tr>
+           </mj-table>
+            <mj-table align="left" color="#071C4D" line-height="28px" font-size="18px" font-family= "Assistant, Helvetica, Arial, sans-serif"
+           padding-left="25px"
+           padding-right="25px">
+          <tr>
+            <td colspan="3">Travel Details</td>
+          </tr>
+          <tr>
+            <td><strong>Departure</strong></td>
+            <td style="text-align:right;">Nusa Penida</td>
+         </tr>
+          <tr>
+            <td><strong>Date and Time</strong></td>
+            <td style="text-align:right;">Thur, 20  Mar, 2022</td>
+         </tr>
+           </mj-table>
+           <mj-button align="center" font-size="18px" background-color="#FF9E53"
+           border-radius="4px"
+           color="#fff" font-family="Assistant, sans-serif">
+                Check Detail
+           </mj-button>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#fff" padding-bottom="0px"
+    padding-top="40px">
+        <mj-column width="100%" vertical-align="middle">
+           <mj-text align="left" color="#071C4D" font-size="18px" line-height= "20px" font-family="Assistant, sans-serif"
+           padding-left="25px"
+           padding-right="25px">
+
+         Butuh  bantuan ?
+           </mj-text>
+        </mj-column>
+    </mj-section>
+
+     <mj-section background-color="#fff"  padding-bottom="30px"
+    padding-top="10px">
+
+        <mj-column>
+           <mj-table>
+          <tr>
+            <td style="width: 50px">
+                 <image src="images/ic_bahasa – 1@2x.png" alt="" width="50px"/>
+            </td>
+            <td style="font-size:18px;
+                padding-left:10px;
+                color : #071C4D;
+                font-family: Assistant, Helvetica, Arial, sans-serif
+            ">
+                support@nomads.id
+                <br>
+                087778578123
+            </td>
+          </tr>
+           </mj-table>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="30px" padding-top="3px">
+        <mj-column>
+        <mj-text align="center"
+        color ="#6E6E6E"
+        font-size="18px"
+        font-family="Assistant, Helvetica, Arial, sans-serif"
+        padding-right="25px"
+        padding-bottom="0px"
+        padding-top="30px"
+        >
+    2019 Copyright Nomads • All rights reserved • Made in Jakarta
+        </mj-text>
+        </mj-column>
+
+    </mj-section>
+ </mj-body>
+</mjml>
