@@ -10,7 +10,7 @@ Travel
 
       <header class="text-center">
         <h1 data-aos="fade-up"  data-aos-duration="1000">
-          Explore Many Place
+          Explore Many Places
           <br />
           In One Click
         </h1>
