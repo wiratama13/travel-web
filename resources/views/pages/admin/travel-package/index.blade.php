@@ -30,9 +30,10 @@
                             </tr>
                         </thead>
                         <tbody>
+                           
                               @forelse ($items as $item)
                               <tr>
-                                <td>{{$item->id}}</td>
+                                <td>{{$loop->iteration}}</td>
                                 <td>{{$item->title}}</td>
                                 <td>{{$item->location}}</td>
                                 <td>{{$item->type}}</td>

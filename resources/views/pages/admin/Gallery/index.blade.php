@@ -29,7 +29,7 @@
                         <tbody>
                               @forelse ($items as $item)
                               <tr>
-                                <td>{{$item->id}}</td>
+                                <td>{{$loop->iteration}}</td>
                                 <td>{{$item->travel_package->title ?? 'no title'}}</td>
                                <td>
                                    <img src="{{Storage::url($item->image)}}"  alt="" style="width: 150px" class="img-thumbnail">
