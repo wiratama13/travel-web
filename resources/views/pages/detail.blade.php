@@ -72,7 +72,7 @@
               </div>
               <h2 class="mt-4">Tentang Wisata</h2>
               <p>
-              {{!! $item->about !!}}
+              {!! $item->about!!}
               </p>
              
           
