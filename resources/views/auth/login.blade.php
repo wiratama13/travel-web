@@ -21,12 +21,12 @@
                     </div>
                     
                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                        login with username: admin@mail.com, password: password
+                        login with username: admin@mail.com, password: password, and go to https://travel.myportowira.online/admin
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="form-group">
