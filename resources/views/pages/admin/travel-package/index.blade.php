@@ -33,7 +33,7 @@
                            
                               @forelse ($items as $item)
                               <tr>
-                                <td>{{$loop->iteration}}</td>
+                                <td>{{$->iteration}}</td>
                                 <td>{{$item->title}}</td>
                                 <td>{{$item->location}}</td>
                                 <td>{{$item->type}}</td>
