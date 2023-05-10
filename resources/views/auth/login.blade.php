@@ -19,10 +19,14 @@
                     <div class="text-center">
                         <img src="{{'frontend/img/logo-travel.png'}}" alt="" class="w-50 mb-2">
                     </div>
-                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                        login dengan username: admin@mail.com, password: password
-                        <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        login with username: admin@mail.com, password: password
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
+                    
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="form-group">
