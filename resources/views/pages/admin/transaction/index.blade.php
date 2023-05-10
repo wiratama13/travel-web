@@ -28,7 +28,7 @@
                         <tbody>
                               @forelse ($items as $item)
                               <tr>
-                                <td>{{$->iteration}}</td>
+                                <td>{{$loop->iteration}}</td>
                                 <td>{{$item->travel_package->title ?? 'no title'}}</td>
                                 <td>{{$item->user->name}}</td>
                                 <td>{{$item->additional_visa}}</td>
