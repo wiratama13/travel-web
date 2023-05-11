@@ -68,7 +68,7 @@ Travel
           <div class="section-popular-travel row justify-content-center owl-carousel owl-theme" id="owl-demo">
             @foreach ($items as $item)
            <div class="col-sm-6 col-md-4 col-lg-3">
-            <div class="card-travel text-center d-flex flex-column item"
+            <div class="card-travel text-center d-flex flex-column item card-image"
             style="background-image: url('{{$item->galleries->count() ? Storage::url
             ($item->galleries->first()->image) : '' }}')";
              >
@@ -108,3 +108,16 @@ Travel
 
 
 @endsection
+
+@push('prepend-style')
+<style>
+    .card-image{
+        background-position: center center; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 380px;
+        width: 240px
+    }
+</style>
+
+@endpush
