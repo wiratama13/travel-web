@@ -55,7 +55,7 @@ Travel
                 <p>
                   Something that you never try
                   <br />
-                  before in this world
+                  Before in this world
                 </p>
 
                 <p>Swipe to more <i class="fa-solid fa-arrow-right"></i></p>
