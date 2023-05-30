@@ -107,11 +107,11 @@ class CheckoutController extends Controller
 
         return $transaction_success;
 
-        // Mail::to($transaction_success->user)->send(
-        //     new TransactionSuccess($transaction_success)
-        // );
+        Mail::to($transaction_success->user)->send(
+            new TransactionSuccess($transaction_success)
+        );
 
-        //  return view('pages.success');
+         return view('pages.success');
 
         // set konfigurasi midtrans
         // Config::$serverKey = config('midtrans.serverKey');
