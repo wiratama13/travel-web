@@ -171,7 +171,7 @@
                           <tbody>
                             <tr>
                               <td style="width:550px;">
-                                <img src="{{ url('/storage'. $data->travel_package->galleries[0]->image) }}" alt="gambar bermasalah" height="auto"  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" />
+                                <img src="{{ $data->travel_package->galleries[0]->image) }}" alt="gambar bermasalah" height="auto"  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" />
                               </td>
                             </tr>
                           </tbody>
@@ -199,7 +199,7 @@
                   <tbody>
                     <tr>
                       <td align="left" style="font-size:0px;padding:10px 25px;padding-right:25px;padding-left:25px;word-break:break-word;">
-                        <div style="font-family:Assistant, Helvetica, Arial, sans-serif;font-size:18px;line-height:1;text-align:left;color:#071C4D;">Hi Wiratama <br><br> Tiket digital kamu sudah berhasil dicetak <br> Order ID <strong>#2214219</strong></div>
+                        <div style="font-family:Assistant, Helvetica, Arial, sans-serif;font-size:18px;line-height:1;text-align:left;color:#071C4D;">Hi {{ $data->user->name }} <br><br> Tiket digital kamu sudah berhasil dicetak <br> Order ID <strong>{{ $data->id }}</strong></div>
                       </td>
                     </tr>
                     <tr>
@@ -208,14 +208,13 @@
                           <tr>
                             <td colspan="3">Members</td>
                           </tr>
+                          @foreach ($data->detail as $items)
                           <tr>
-                            <td><strong>Wiratama Ashidqi</strong></td>
-                            <td style="text-align:right;">Singapore, SG</td>
+                            <td><strong>{{ $items->user }}</strong></td>
+                            <td style="text-align:right;">{{ $items->nationality }}</td>
                           </tr>
-                          <tr>
-                            <td><strong>Angga Rizky</strong></td>
-                            <td style="text-align:right;">Indoensia, IND</td>
-                          </tr>
+                          @endforeach
+                        
                         </table>
                       </td>
                     </tr>
@@ -225,14 +224,16 @@
                           <tr>
                             <td colspan="3">Travel Details</td>
                           </tr>
-                          <tr>
+                        
+                            <tr>
                             <td><strong>Departure</strong></td>
-                            <td style="text-align:right;">Nusa Penida</td>
+                            <td style="text-align:right;">{{ $data->travel_package->title }}</td>
                           </tr>
                           <tr>
                             <td><strong>Date and Time</strong></td>
-                            <td style="text-align:right;">Thur, 20 Mar, 2022</td>
+                            <td style="text-align:right;">{{ $data->travel_package->departure_date }}</td>
                           </tr>
+                        
                         </table>
                       </td>
                     </tr>
