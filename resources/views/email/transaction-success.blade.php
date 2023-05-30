@@ -208,7 +208,7 @@
                           <tr>
                             <td colspan="3">Members</td>
                           </tr>
-                          @foreach ($data->detail as $items)
+                          @foreach ($data->details as $items)
                           <tr>
                             <td><strong>{{ $items->user }}</strong></td>
                             <td style="text-align:right;">{{ $items->nationality }}</td>
