@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-use Mail;
 use App\Mail\TransactionSuccess;
 use Illuminate\Http\Request;
 use App\Models\TravelPackage;
@@ -10,6 +9,7 @@ use App\Models\Transaction;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
+use Illuminate\Support\Facades\Mail;
 use Midtrans\Config;
 use Midtrans\Snap;
 
