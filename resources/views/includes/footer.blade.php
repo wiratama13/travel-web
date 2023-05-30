@@ -1,6 +1,6 @@
 {{-- api wa --}}
 <div style="position:fixed;right:20px;bottom:20px;">
-<a href="https://api.whatsapp.com/send?phone=+628123456789&text=Halo bisakah saya memesan tiket untuk berlibur">
+<a href="https://api.whatsapp.com/send?phone=+6285156192786&text=Halo bisakah saya memesan tiket untuk berlibur">
 <img src="{{url('frontend/img/wa.png')}}" width="120px"></a>
 {{-- <div class="btn btn-info btn-wa"> Whatsapp Kami</div> --}}
 
