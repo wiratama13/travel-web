@@ -29,7 +29,7 @@
                               @forelse ($items as $item)
                               <tr>
                                 <td>{{$loop->iteration}}</td>
-                                <td>{{$item->travel_package->title ?? 'no title'}}</td>
+                                <td>{{$item->travel_package->title ?? 'no title yet'}}</td>
                                 <td>{{$item->user->name}}</td>
                                 <td>{{$item->additional_visa}}</td>
                                 <td>{{$item->transaction_total}}</td>
