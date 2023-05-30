@@ -171,7 +171,7 @@
                           <tbody>
                             <tr>
                               <td style="width:550px;">
-                                <img src="{{ $data->travel_package->galleries[0]->image) }}" alt="gambar bermasalah" height="auto"  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" />
+                                <img src="{{ url($data->travel_package->galleries[0]->image) }}" alt="gambar bermasalah" height="auto"  style="border:none;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="550" />
                               </td>
                             </tr>
                           </tbody>
