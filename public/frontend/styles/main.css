@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #071c4d;
+  color: #00425A;
 }
 
 .navbar-brand img {
@@ -19,11 +19,11 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071c4d;
+  color: #00425A;
 }
 .navbar-light .navbar-nav .active {
   font-weight: bold;
-  color: #071c4d !important;
+  color: #00425A !important;
 }
 
 .btn-navbar-right {
@@ -35,7 +35,7 @@ body {
 }
 
 .btn-login {
-  background-color: #071c4d;
+  background-color: #00425A;
   color: white;
 }
 .btn-login:hover {
@@ -62,7 +62,7 @@ header p {
   font-size: 22px;
 }
 header .btn-get-started {
-  background-color: #ff9e53;
+  background-color: #1F8A70;
   color: #fff;
   border: none;
 }
@@ -99,7 +99,7 @@ header .btn-get-started:hover {
 }
 .section-popular .section-popular-heading h2,
 .section-popular .section-popular-heading p {
-  color: #071c4d;
+  color: #00425A;
 }
 .section-popular .section-popular-heading h2 {
   font-family: "Playfair Display", serif;
@@ -142,7 +142,7 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
-  background-color: #ff9e53;
+  background-color: #1F8A70;
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
@@ -170,14 +170,14 @@ header .btn-get-started:hover {
   font-weight: bold;
   font-size: 40px;
   text-align: left;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-network img {
   font-family: Assistant;
   font-weight: normal;
   font-size: 18px;
   text-align: left;
-  color: #071c4d;
+  color: #00425A;
   max-width: 100%;
 }
 
@@ -191,7 +191,7 @@ header .btn-get-started:hover {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-testimonial-heading p {
   font-size: 18px;
@@ -229,7 +229,7 @@ header .btn-get-started:hover {
   margin-right: -20px;
 }
 .section-testimonial-content .btn-get-started {
-  background-color: #ff9e53;
+  background-color: #1F8A70;
   color: #fff;
 }
 .section-testimonial-content .btn-get-started:hover {
@@ -246,7 +246,7 @@ header .btn-get-started:hover {
 }
 
 .section-footer a {
-  color: #071c4d;
+  color: #00425A;
 }
 
 .section-details-header {
@@ -266,7 +266,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-details-content .card-details {
   padding: 30px;
@@ -285,7 +285,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details .trip-information th {
   font-weight: 300;
   font-size: 18px;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-details-content .card-details .trip-information td {
   font-weight: 300;
@@ -295,12 +295,12 @@ header .btn-get-started:hover {
 .section-details-content .card-details .trip-information .text-blue {
   font-weight: 600;
   font-size: 18px;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-details-content .card-details .trip-information .text-orange {
   font-weight: 600;
   font-size: 18px;
-  color: #ff9e53;
+  color: #1F8A70;
 }
 .section-details-content .card-details .payment-instruction {
   font-weight: 300;
@@ -310,7 +310,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details .bank .bank-item h3 {
   font-size: 18px;
   font-weight: 300;
-  color: #071c4d;
+  color: #00425A;
   margin-bottom: 0;
 }
 .section-details-content .card-details .bank .bank-item p {
@@ -324,7 +324,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details .bank .bank-item .description p {
   font-weight: normal;
   font-size: 16px;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-details-content .card-details .bank .bank-image {
   width: 45px;
@@ -339,7 +339,7 @@ header .btn-get-started:hover {
 .section-details-content .card-details h3 {
   font-weight: 600;
   font-size: 14px;
-  color: #071c4d;
+  color: #00425A;
 }
 .section-details-content .card-details .gj-datepicker .datepicker {
   border-right: 0;
@@ -348,7 +348,7 @@ header .btn-get-started:hover {
   padding-right: 30px;
 }
 .section-details-content .btn-add-now {
-  background-color: #071c4d;
+  background-color: #00425A;
   color: #fff;
 }
 .section-details-content .btn-add-now:hover {
@@ -365,7 +365,7 @@ header .btn-get-started:hover {
 }
 .section-details-content .features h3 {
   font-size: 18px;
-  color: #071c4d;
+  color: #00425A;
   margin-bottom: 0;
 }
 .section-details-content .features p {
@@ -404,7 +404,7 @@ header .btn-get-started:hover {
   margin-top: -16px;
 }
 .section-details-content .btn-join-now {
-  background-color: #ff9e53;
+  background-color: #1F8A70;
   color: #fff;
   border-radius: 0;
 }
@@ -417,7 +417,7 @@ header .btn-get-started:hover {
   height: 90vh;
 }
 .section-success .btn-home-page {
-  background-color: #071c4d;
+  background-color: #00425A;
   color: #fff;
 }
 .section-success .btn-home-page:hover {
@@ -437,7 +437,7 @@ header .btn-get-started:hover {
   height: 100vh;
 }
 .page-login .btn-login {
-  background-color: #ff9e53;
+  background-color: #1F8A70;
   color: #fff;
 }
 .page-login .btn-login:hover {
@@ -471,14 +471,14 @@ header .btn-get-started:hover {
 }
 
 .about-us h1 {
-  color: #071c4d;
+  color: #00425A;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
 .about-us p {
   font-family: Assistant, sans-serif;
-  color: #071c4d;
+  color: #00425A;
   text-align: justify;
   font-size: 18px;
 }
