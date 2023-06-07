@@ -1,5 +1,5 @@
 $background-primary: #fff;
-$text-primary: #071c4d;
+$text-primary: #00425A;
 
 $text-family-primary: Assistant, sans-serif;
 html {
@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #071c4d;
+    color: #00425A;
 }
 
 //navbar
@@ -26,11 +26,11 @@ body {
 .navbar-light {
     .navbar-nav {
         .nav-link {
-            color: #071c4d;
+            color: #00425A;
         }
         .active {
             font-weight: bold;
-            color: #071c4d !important;
+            color: #00425A !important;
         }
     }
 }
@@ -45,7 +45,7 @@ body {
 }
 
 .btn-login {
-    background-color: #071c4d;
+    background-color: #00425A;
     color: white;
 
     &:hover {
@@ -74,7 +74,7 @@ header {
         font-size: 22px;
     }
     .btn-get-started {
-        background-color: #ff9e53;
+        background-color: #1F8A70;
         color: #fff;
         border: none;
 
@@ -166,7 +166,7 @@ header {
         }
         .travel-button {
             .btn-travel-details {
-                background-color: #ff9e53;
+                background-color: #1F8A70;
                 color: #fff;
 
                 &:hover {
@@ -203,14 +203,14 @@ header {
         font-weight: bold;
         font-size: 40px;
         text-align: left;
-        color: #071c4d;
+        color: #00425A;
     }
     img {
         font-family: Assistant;
         font-weight: normal;
         font-size: 18px;
         text-align: left;
-        color: #071c4d;
+        color: #00425A;
         max-width: 100%;
     }
 }
@@ -225,7 +225,7 @@ header {
         font-weight: bold;
         font-size: 40px;
         text-align: center;
-        color: #071c4d;
+        color: #00425A;
     }
     p {
         font-size: 18px;
@@ -265,7 +265,7 @@ header {
         }
     }
     .btn-get-started {
-        background-color: #ff9e53;
+        background-color: #1F8A70;
         color: #fff;
 
         &:hover {
@@ -286,7 +286,7 @@ header {
 
 .section-footer {
     a {
-        color: #071c4d;
+        color: #00425A;
     }
 }
 
@@ -307,7 +307,7 @@ header {
     .breadcrumb-item {
         &.active {
             font-weight: bold;
-            color: #071c4d;
+            color: #00425A;
         }
     }
 
@@ -330,7 +330,7 @@ header {
             th {
                 font-weight: 300;
                 font-size: 18px;
-                color: #071c4d;
+                color: #00425A;
             }
 
             td {
@@ -342,13 +342,13 @@ header {
             .text-blue {
                 font-weight: 600;
                 font-size: 18px;
-                color: #071c4d;
+                color: #00425A;
             }
 
             .text-orange {
                 font-weight: 600;
                 font-size: 18px;
-                color: #ff9e53;
+                color: #1F8A70;
             }
         }
 
@@ -363,7 +363,7 @@ header {
                 h3 {
                     font-size: 18px;
                     font-weight: 300;
-                    color: #071c4d;
+                    color: #00425A;
                     margin-bottom: 0;
                 }
 
@@ -379,7 +379,7 @@ header {
                     p {
                         font-weight: normal;
                         font-size: 16px;
-                        color: #071c4d;
+                        color: #00425A;
                     }
                 }
             }
@@ -398,7 +398,7 @@ header {
         h3 {
             font-weight: 600;
             font-size: 14px;
-            color: #071c4d;
+            color: #00425A;
         }
 
         .gj-datepicker {
@@ -414,7 +414,7 @@ header {
     }
 
     .btn-add-now {
-        background-color: #071c4d;
+        background-color: #00425A;
         color: #fff;
 
         &:hover {
@@ -433,7 +433,7 @@ header {
 
         h3 {
             font-size: 18px;
-            color: #071c4d;
+            color: #00425A;
             margin-bottom: 0;
         }
         p {
@@ -485,7 +485,7 @@ header {
         margin-top: -16px;
     }
     .btn-join-now {
-        background-color: #ff9e53;
+        background-color: #1F8A70;
         color: #fff;
         border-radius: 0;
 
@@ -499,7 +499,7 @@ header {
 .section-success {
     height: 90vh;
     .btn-home-page {
-        background-color: #071c4d;
+        background-color: #00425A;
         color: #fff;
 
         &:hover {
@@ -521,7 +521,7 @@ header {
     height: 100vh;
 
     .btn-login {
-        background-color: #ff9e53;
+        background-color: #1F8A70;
         color: #fff;
 
         &:hover {

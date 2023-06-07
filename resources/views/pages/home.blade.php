@@ -14,11 +14,7 @@ Travel
           <br />
           In One Click
         </h1>
-        <p class="mt-3" data-aos="fade-up">
-          You will see beautiful
-          <br />
-          moment you never see before
-        </p>
+       
         <a href="#travel-package" class="btn btn-get-started px-4 mt-4" data-aos="fade-up">
           Get Started
         </a>
