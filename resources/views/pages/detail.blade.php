@@ -71,7 +71,7 @@
 
               </div>
               <h2 class="mt-4">Tentang Wisata</h2>
-              <p class="font-weight-normal">
+              <p style="font-weight: 500">
               {!! $item->about!!}
               </p>
              
