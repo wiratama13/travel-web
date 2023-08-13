@@ -32,8 +32,8 @@
               </p>
               @if ($item->galleries->count())
               <div class="gallery">
-                <div class="xzoom-container">
-                  <img src="{{Storage::url($item->galleries->first()->image)}}" class="xzoom mb-2" id="xzoom-default" xoriginal="{{Storage::url($item->galleries->first()->image)}}">
+                <div class="xzoom-container w-100">
+                  <img src="{{Storage::url($item->galleries->first()->image)}}" class="xzoom mb-2 img-fluid" id="xzoom-default" xoriginal="{{Storage::url($item->galleries->first()->image)}}">
                 </div>
 
                 <div class="xzoom-thumbs">
