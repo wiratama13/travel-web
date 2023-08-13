@@ -39,7 +39,7 @@ body {
   color: white;
 }
 .btn-login:hover {
-  background-color: #0c2561;
+  background-color: #015370;
   color: white;
 }
 
@@ -67,7 +67,7 @@ header .btn-get-started {
   border: none;
 }
 header .btn-get-started:hover {
-  background-color: #ffb47b;
+  background-color: #28ac8b;
   color: #fff;
 }
 
@@ -146,7 +146,7 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
-  background-color: #ffb47b;
+  background-color: #28ac8b;
   color: #fff;
 }
 
@@ -233,7 +233,7 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-testimonial-content .btn-get-started:hover {
-  background-color: #ffb47b;
+  background-color: #28ac8b;
   color: #fff;
 }
 .section-testimonial-content .btn-need-help {
@@ -409,7 +409,7 @@ header .btn-get-started:hover {
   border-radius: 0;
 }
 .section-details-content .btn-join-now:hover {
-  background-color: #ffaf71;
+  background-color: #28ac8b;
   color: #fff;
 }
 
@@ -421,7 +421,7 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-success .btn-home-page:hover {
-  background-color: #0c2561;
+  background-color: #015370;
   color: #fff;
 }
 
